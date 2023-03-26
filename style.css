@@ -1,0 +1,284 @@
+.slides{
+    background-color: rgb(194, 188, 182);
+    text-align: center;
+    
+
+}
+
+.logo{
+    mix-blend-mode: multiply ;
+}
+
+
+#section1 #slogan
+{
+    position: absolute;
+    left:850px;
+    top:200px;
+    font-size: 40px;
+    color:rgba(20,17,17,0.822)
+}
+#slogan span{
+    color:rgb(0,141,68);
+}
+
+
+.cart
+{
+    padding:10px 20px 10px;
+    border:none;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    position: relative;
+    top:5px;
+    box-shadow: 3px 3px rgb(114, 114, 114);
+    cursor: pointer;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+.cart:hover
+{
+    padding:15px 25px 15px;
+    box-shadow: 5px 5p 5px rgb(83, 83, 83);
+    background-color: rgb(199, 197, 197);
+}
+.cart:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.buy
+{
+    padding:10px 20px 10px;
+    border:none;
+    border-radius: 25px;
+    background-color: rgb(0,141,68);
+    color:white;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    position: relative;
+    top:5px;
+    box-shadow: 3px 3px darkgreen;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.buy:hover
+{
+    padding:15px 25px 15px;
+    box-shadow: 5px 5p 5px rgb(15,50,15);
+    background-color: rgb(1,77,1);
+}
+
+#section2
+{
+    text-align: center;
+    background-color: rgba(207,217,210,0.64);
+    padding-top: 20px;
+    padding-bottom: 60px;
+    color:rgba(20,17,17,0.822)
+}
+
+#section2 h1
+{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#section2 span{
+    color:rgb(0,141,68);
+}
+
+.fa-headset,.fa-truck-fast,.fa-sack-dollar,.fa-face-smile
+{
+    color:rgba(20,17,17,0.822);
+    margin-top: 20px;
+    
+}
+.s1 a{
+    font-size: 50px;
+}
+
+.services
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+
+.s1{
+    border: none;
+    background-color: rgba(255,255,255,0.707);
+    padding:20px 5px 15px;
+    border-radius: 50px;
+    width:200px;
+  
+    transition: 0.5s ease;
+}
+.s{
+    height: 10px;
+}
+
+.s1:hover{
+    margin-top: -20px;
+    box-shadow: 8px 8px 8px rgba(20,17,17,0.822);
+}
+
+.s1:hover .s i{
+    color:rgb(0,141,68)
+}
+.s1 h2{
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+
+.newArrivals{
+    margin-top: 50px !important;
+}
+.card{
+    width: 350px;
+    margin-bottom: 50px;
+    
+}
+
+.card img{
+    mix-blend-mode: multiply ;
+}
+
+.card img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+
+}
+.card-text{
+    font-weight: bold;
+    color: grey;
+}
+.btn-primary{
+    width: 100%;
+    background-color: orangered !important;
+}
+.heading{
+    margin: 50px;
+}
+
+.top{
+    font-weight: bold;
+    font-size: 35px;
+     text-align: center;
+}
+
+.top span{
+    color: rgb(0, 141, 68);
+
+}
+.carousel slide{
+    text-align: center;
+}
+
+.carousel-item{
+    mix-blend-mode: multiply ;
+    
+}
+
+
+#section3
+{
+    text-align: center;
+    padding: 20px 10px 60px;
+    color:rgba(20, 17, 17, 0.822);
+    background-color: rgb(242, 237, 237);
+}
+
+#section3 h1{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#section3 span{
+    color: rgb(0, 141, 68);
+}
+
+.form
+{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+.input
+{
+    margin-bottom: 20px;
+    width:400px;
+    padding:10px 10px;
+    border:2px solid rgb(0, 141, 68);
+    border-radius: 4px;
+    font-size: large;
+    color: rgba(20, 17, 17, 0.822);
+}
+
+.form textarea{
+    margin-bottom: 20px;
+    width: 400px;
+    height:250px;
+    padding:10px 10px;
+    border:2px solid rgb(0, 141, 68);
+    border-radius: 4px;
+    font-size: large;
+    color: rgba(20, 17, 17, 0.822);
+}
+
+.query
+{
+    padding:10px;
+    background-color: rgb(0, 141, 68);
+    border: none;
+    border-radius: 4px;
+    font-size: large;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.query a{
+    color: white;
+    text-decoration: none;
+}
+
+.query:hover{
+    background-color: rgb(0, 79, 38);
+}
+
+
+.copyright{
+    background-color: rgb(0, 0, 0);
+    font-size: large;
+    text-align: center;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+}
+.price{
+    color: rgb(255, 0, 0);
+}
+
+.image{
+    float: right;
+    margin-top: -275px;
+    margin-right: 250px;
+    font-style: oblique;
+}
+#footer{
+    background-color: black;
+}
